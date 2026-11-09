@@ -13,7 +13,7 @@ def main():
     encoded = encode_image("dandruff-optimized.webp")
     response = analyze_image_with_query(
         query=system_prompt + "\nhey doctor could you please check what's wrong with my scalp",
-        model="qwen/qwen3.6-27b",
+        model="qwen/qwen3.8-27b",
         encoded_image=encoded
     )
     print("--- RESPONSE ---")

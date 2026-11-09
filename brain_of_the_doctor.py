@@ -22,7 +22,7 @@ from groq import Groq
 
 query="Is there something wrong with my face?"
 #model = "meta-llama/llama-4-maverick-17b-128e-instruct"
-model="qwen/qwen3.6-27b"
+model="qwen/qwen3.8-27b"
 #model="llama-3.2-90b-vision-preview" #Deprecated
 
 def analyze_image_with_query(query, model, encoded_image):

@@ -8,7 +8,7 @@ An AI-powered doctor assistant that can **see** (analyze medical images), **list
 
 ## ✨ Features
 
-- **🧠 Medical Image Analysis** — Upload a photo (skin condition, rash, etc.) and get an AI-powered assessment using Groq's multimodal LLM (`qwen/qwen3.6-27b`).
+- **🧠 Medical Image Analysis** — Upload a photo (skin condition, rash, etc.) and get an AI-powered assessment using Groq's multimodal LLM (`qwen/qwen3.8-27b`).
 - **🎤 Voice Input** — Speak your symptoms via microphone; audio is transcribed to text using Groq's Whisper model (`whisper-large-v3`).
 - **🔊 Voice Response** — The doctor's response is converted to natural speech using **ElevenLabs** (high quality) or **gTTS** (free fallback).
 - **🖥️ Web UI** — Clean Gradio interface for easy interaction.
@@ -159,7 +159,7 @@ AI_DOCTOR/
 
 | Setting | File | Default |
 |---|---|---|
-| Vision model | `brain_of_the_doctor.py` | `qwen/qwen3.6-27b` |
+| Vision model | `brain_of_the_doctor.py` | `qwen/qwen3.8-27b` |
 | STT model | `voice_of_the_patient.py` | `whisper-large-v3` |
 | TTS engine | `gradio_app.py` | ElevenLabs (`text_to_speech_with_elevenlabs`) |
 | TTS voice ID | `voice_of_the_doctor.py` | `Xb7hH8MSUJpSbSDYk0k2` |
